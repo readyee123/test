@@ -1,0 +1,124 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: silver;
+    font-family: Optima, sans-serif;
+}
+a:link{
+    color: #055;
+}
+a:visited{
+    color: #404;
+}
+
+header{
+    background-color: black ; color: #fff;
+    text-align: center;
+    color: #fff;
+    background-color: #055;
+    padding: 1.25em 0 0.25em 0;
+    position: relative;
+    background-color: #404;
+
+}
+header h1, header h2 {
+    margin: 0;
+}
+header h1{
+    color: #ff0; font-size: 250%;}
+header h2{
+    font-weight: normal; font-style: italic;}
+#sitenav{
+    color: #fff;
+    background-color: #404;
+    padding: 0;margin: 0;
+    display: inline;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-bottom: 1px solid #DDDD00;
+    width: 100%;
+    background-color: #055;
+    padding-bottom: 0;
+    
+
+}
+#sitenav ol{
+    font-size: 90%;
+    text-align: center;
+    padding: 0;margin: 0;
+    display: inline;
+    margin: 0;padding: 0;display: inline;
+
+}
+#sitenav li{
+    display: inline;
+    padding-left: 1em;
+    margin-left: 1em;
+    border-left: 1px solid black;
+
+    display: inline; padding-left: 1em;
+    margin-left: 1em;
+    border-left: black solid 1px;
+    margin-left: 1em;
+    border-left:1px solid #dd0 ;
+}
+#sitenav a:link, #sitenav li a:visited{
+    color: #fff; text-decoration: none;}
+#sitnav li a:hover{
+    color: #DDDD00;}
+#sitenav li:first-child{
+ padding-left: 0; border-left: none;
+ margin-left: 0;   
+ 
+}
+#sitenav li a {
+    color: #fff;
+}
+#main{
+    padding: 0 2em 2em 12em;
+    position: relative;
+    background-color: gray; 
+    background-color: #055;
+    padding: 0 12em 2em 12em;
+}
+#content{
+    background-color: #fff; padding: 1em 5em;
+    background-color: #fff;
+    float: left;
+}
+#content h3{margin-top: 0;}
+#content p {font-size: 90%; line-height: 1.4;}
+#sidebar{
+    position: absolute;
+    width: 10em;
+    right: 1em;top: 1em;
+    float: left;width: 10em;position: relative;
+    right: 11em;top: 1em;
+    margin-left: -100%;
+}
+#sidebar h3{
+    color: #fff; background-color: #404; font-size: 100%;
+margin: 0;font-weight: normal;padding: 0.125em 0.25em;}
+#sidebar ol {margin: 0 0 1em 0;
+background-color: #fff;
+border: 2px solid #404;
+border-top: 0; max-resolution: 0 0 1em 0;
+padding: 0.125em 0.25em;
+margin: 0 0 1em 0;
+}
+#sidebar li{
+    font-size: 85%; display: block; padding: 0.125 0;}
+#sidebar li a:link, #sidebar li a:visited{
+    text-decoration: none; color: #055;
+}
+#sidebar li a:hover{color: #404; }
+footer{
+    
+    background-color: #6e6e6e;
+    padding: 0 0.5em 0.4em 5em;
+}
+footer p {margin: 0em; font-size: 85%; padding: 0.5em;}
+footer p a:link, footer p a:visited{
+    color: #DDDD00;
+}
